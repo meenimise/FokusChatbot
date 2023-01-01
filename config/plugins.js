@@ -14,5 +14,7 @@
           },
         },
       },
-      // ...
+      'import-export-entries': {
+        enabled: true,
+      },
     });
