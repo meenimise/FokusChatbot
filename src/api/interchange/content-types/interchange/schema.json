@@ -1,0 +1,25 @@
+{
+  "kind": "collectionType",
+  "collectionName": "interchanges",
+  "info": {
+    "singularName": "interchange",
+    "pluralName": "interchanges",
+    "displayName": "interchange",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "question": {
+      "type": "text",
+      "required": true,
+      "unique": true
+    },
+    "answer": {
+      "type": "richtext",
+      "required": true
+    }
+  }
+}
